@@ -1,0 +1,9 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: user-delete-task
+
+  config:
+    import: optional:configserver:http://localhost:8889
